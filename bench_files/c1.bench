@@ -1,0 +1,19 @@
+# c1
+# 5 inputs
+# 1 outputs
+# 0 inverter
+# 5 gates ( 2 ANDs + 1 NORs + 2 ORs)
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+INPUT(5)
+
+OUTPUT(10)
+
+6 = AND(1, 2)
+7 = NOR(6, 3)
+8 = AND(3, 4)
+9 = OR(8, 5)
+10 = OR(7, 9)

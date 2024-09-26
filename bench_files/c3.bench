@@ -1,0 +1,30 @@
+
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+INPUT(5)
+INPUT(6)
+INPUT(7)
+INPUT(8)
+INPUT(9)
+
+
+OUTPUT(21)
+
+
+10 = BUFF(1)
+11 = BUFF(2)
+12 = BUFF(3)
+13 = BUFF(4)
+14 = NOT(10)
+15 = NOT(11)
+16 = NOT(12)
+17 = NOT(13)
+18 = OR(16, 7, 17)
+19 = AND(10, 6, 15)
+20 = NAND(14, 5, 12)
+21 = NOR(20, 19, 18, 8, 9)
+
+
